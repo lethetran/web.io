@@ -208,7 +208,7 @@ position: relative;
     margin-top: 50px;
 }
 .section-header-headline{
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.14286;
     font-weight: 600;
     letter-spacing: 0.007em;
@@ -402,6 +402,7 @@ position: relative;
     margin-inline-end: auto;
     width: 87.5vw;
     max-width: 1680px;
+    margin-top: 50px;
 }
 .section-header {
     display: flex;
@@ -420,6 +421,8 @@ position: relative;
 }
 .accor-wrapper{
     background: #fafafa;
+    width:100%;
+    margin:auto;
 }
 .accordion {
     height: auto;
@@ -440,9 +443,12 @@ li{
     margin-inline-end: 0px;
     font-weight: bold;
     unicode-bidi: isolate;
+    padding-top: 20px;
 }
 .accordion-title-text{
     text-align: start;
+    padding-left: 30px;
+    font-size: 24px;
 }
 .accordion-tray{
     overflow: visible;
@@ -451,23 +457,24 @@ li{
 }
 .accordion-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 40px;
 }
 .accordion-para-text{
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.4285914286;
     font-weight: 400;
     letter-spacing: -0.016em;
     font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    width: 30vw;
+    padding-left:30px;
 }
 .image-container{
     display: flex;
-    justify-content: center;
-    max-width: 100%;
+    justify-content: flex-start;
     pointer-events: none;
+    margin-left: 15vw;
 }
-
 
 .groups-index{
     display: flex;
@@ -482,7 +489,7 @@ li{
     color: #6e6e73;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-left: 38px;
+    margin-left: 105px;
 }
 .index-list{
     list-style-type: none;
@@ -495,5 +502,5 @@ li{
     letter-spacing: .011em;
     font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
     margin-bottom: 5px;
-    margin-left: 38px;
+    margin-left: 105px;
 }
